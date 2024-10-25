@@ -1,5 +1,5 @@
 import { Component, ElementRef, Input, signal, ViewChild } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 import WaveSurfer from 'wavesurfer.js'
 import { sign } from 'crypto';
@@ -7,7 +7,7 @@ import { sign } from 'crypto';
 @Component({
   selector: 'app-wave-audio',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './wave-audio.component.html',
   styleUrl: './wave-audio.component.css'
 })

@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 import { CounterComponent } from "@shared/components/counter/counter.component";
 import { WaveAudioComponent } from "@info/components/wave-audio/wave-audio.component"
@@ -10,7 +10,7 @@ import { HeaderComponent } from "@shared/components/header/header.component";
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [CounterComponent, CommonModule, WaveAudioComponent, HighlightDirective, HeaderComponent],
+  imports: [CounterComponent, WaveAudioComponent, HighlightDirective, HeaderComponent],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
